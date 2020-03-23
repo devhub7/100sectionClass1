@@ -1,0 +1,108 @@
+a:focus, input:focus, textarea:focus {
+	outline: none;
+}
+section.section-padding {
+    position: relative;
+	padding: 100px 0;
+}
+
+.section-bg {	
+    background: url(assets/img/bg.jpg);
+	background-size: cover;
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 53%;
+    height: 100%;
+}
+
+.section-bg:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #31d6be;
+    opacity: .56;
+}
+
+.contact-form input,.contact-form textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px 12px;
+    color: #333;
+    border: none;
+	border-radius: 3px;
+}
+
+
+.contact-form h2.absolute-text {
+	color: #fff;   
+   transform: rotate(270deg);
+    left: -160px;
+    top: 50%;
+    position: absolute;
+    font-size: 36px;
+    letter-spacing: 3px;
+    opacity: .8;
+}
+}
+
+input:focus, textarea:focus {
+    outline: none;
+}
+
+.contact-form input[type=submit] {
+    width: auto;
+    padding: 12px 24px;
+    background: #fff;
+    font-weight: 700;
+    color: #3CD7C1;
+    border-radius: 3px
+}
+
+.appoinment-text {
+	padding-left: 100px;
+    padding-right: 0px;
+}
+.appoinment-text h3 {
+    margin-bottom: 40px;
+    color: #333;
+    opacity: .8;
+}
+.appoinment-text a.boxed-btn {
+	background: #31d6be;
+    padding: 14px 32px;
+    border-radius: 3px;
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 700;
+    display: inline-block;
+}
+.appoinment-text ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 30px;
+	font-size: 18px;
+}
+
+.appoinment-text ul li {
+    margin-bottom: 14px;
+    position: relative;
+    padding-left: 40px;
+}
+
+.appoinment-text ul li i.fas.fa-shield-alt {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 18px;
+    color: #31d6be;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+}
